@@ -1,6 +1,6 @@
 package Patterns;
 
-public class pattern5 {
+public class TriNum {
      public static void main(String[] args) {
         int n = 5;
 
