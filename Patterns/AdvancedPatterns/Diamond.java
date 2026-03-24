@@ -1,4 +1,4 @@
-package Patterns.AdvPatterns;
+package Patterns.AdvancedPatterns;
 /*
   *
  ***
