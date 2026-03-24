@@ -8,7 +8,7 @@ This repository contains my Java practice programs.
 - Loops
 - Functions
 - Patterns
-
+- Arrays
 ## Author
 
 Ajitesh Verma
