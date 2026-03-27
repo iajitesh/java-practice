@@ -8,14 +8,15 @@ package Patterns.AdvancedPatterns;
  */
 
 public class InvertedHalfwithNum {
-    public static void invertedHalfNum(int n){
-        for(int i=1; i<=n; i++){
-            for(int j=1; j<=n-i+1; j++){
+    public static void invertedHalfNum(int n) {
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= n - i + 1; j++) {
                 System.out.print(j);
             }
             System.out.println();
         }
     }
+
     public static void main(String[] args) {
         invertedHalfNum(5);
     }

@@ -6,22 +6,22 @@ package Patterns.AdvancedPatterns;
    ********     */
 
 public class HollowRectangle {
-    public static void HollowRec(int n, int m){
-        for(int i=1; i<=n; i++){
-            for(int j=1; j<=m; j++){
-                if(i==1 || i==n || j==1 || j==m){
+    public static void HollowRec(int n, int m) {
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= m; j++) {
+                if (i == 1 || i == n || j == 1 || j == m) {
                     System.out.print("*");
-                }else{
+                } else {
                     System.out.print(" ");
                 }
             }
-             System.out.println();
+            System.out.println();
         }
-       
+
     }
 
     public static void main(String[] args) {
-        HollowRec(5,8);
-       
+        HollowRec(5, 8);
+
     }
 }

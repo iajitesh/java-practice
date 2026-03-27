@@ -1,4 +1,5 @@
 import java.util.*;
+
 public class switchcase {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -9,28 +10,27 @@ public class switchcase {
         int a = sc.nextInt();
         System.out.print("Enter B: ");
         int b = sc.nextInt();
-        
 
-switch (c) {
-    case '+':
-        System.out.print(a + b);
-        break;
+        switch (c) {
+            case '+':
+                System.out.print(a + b);
+                break;
 
-    case '-':
-        System.out.print(a - b);
-        break;
+            case '-':
+                System.out.print(a - b);
+                break;
 
-    case '*':
-        System.out.print(a * b);
-        break;
+            case '*':
+                System.out.print(a * b);
+                break;
 
-    case '/':
-        System.out.print(a / b);
-        break;
+            case '/':
+                System.out.print(a / b);
+                break;
 
-    default:
-        System.out.print("Invalid Input!");
-    
-}
+            default:
+                System.out.print("Invalid Input!");
+
+        }
     }
 }

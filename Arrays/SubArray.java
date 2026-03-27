@@ -1,4 +1,5 @@
 package Arrays;
+
 // Time complexity O(n^3) since, 3 nested loop upto n This is the brute force solution
 public class SubArray {
     public static void PrintSubarray(int arr[]) {
@@ -20,8 +21,10 @@ public class SubArray {
                 System.out.println("-> Sum = " + sum);
 
                 // Update max and min
-                if (sum > maxSum) maxSum = sum;
-                if (sum < minSum) minSum = sum;
+                if (sum > maxSum)
+                    maxSum = sum;
+                if (sum < minSum)
+                    minSum = sum;
 
                 ts++;
             }
@@ -34,7 +37,7 @@ public class SubArray {
     }
 
     public static void main(String[] args) {
-        int[] arr = {2, 4, 6, 8, 10};
+        int[] arr = { 2, 4, 6, 8, 10 };
         PrintSubarray(arr);
     }
-} 
+}

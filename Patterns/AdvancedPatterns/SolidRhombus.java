@@ -1,24 +1,25 @@
 package Patterns.AdvancedPatterns;
- /* 
-    *****
+/* 
    *****
   *****
  *****
 *****
- */   
+*****
+*/
 
 public class SolidRhombus {
-    public static void Solid_Rhombus(int n){
-        for(int i=1; i<=n; i++){
-            for(int j=1; j<=(n-i); j++){ //spaces
+    public static void Solid_Rhombus(int n) {
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= (n - i); j++) { // spaces
                 System.out.print(" ");
             }
-            for(int j=1; j<=n; j++){ //stars
+            for (int j = 1; j <= n; j++) { // stars
                 System.out.print("*");
             }
             System.out.println();
         }
     }
+
     public static void main(String[] args) {
         Solid_Rhombus(5);
     }
